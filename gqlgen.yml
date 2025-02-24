@@ -126,11 +126,9 @@ autobind:
 # your liking
 models:
   Category:
-    model: 
-      - github.com/JhonataOliveiraTeixeira/GraphQL/graph/model.Category
-    Course:
-    model: 
-      - github.com/JhonataOliveiraTeixeira/GraphQL/graph/model.Course
+    model: github.com/devfullcycle/13-GraphQL/graph/model.Category
+  Course:
+    model: github.com/devfullcycle/13-GraphQL/graph/model.Course
   ID:
     model:
       - github.com/99designs/gqlgen/graphql.ID

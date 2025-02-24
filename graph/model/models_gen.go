@@ -2,9 +2,6 @@
 
 package model
 
-
-
-
 type Mutation struct {
 }
 
@@ -16,7 +13,7 @@ type NewCategory struct {
 type NewCourse struct {
 	Name        string  `json:"name"`
 	Description *string `json:"description,omitempty"`
-	Category   string  `json:"category"`
+	Category    string  `json:"category"`
 }
 
 type Query struct {
